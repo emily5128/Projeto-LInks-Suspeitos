@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Verificador de Links Suspeitos</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Verificador de Links Suspeitos</h1>
+        <p>Digite um link abaixo para verificar se pode ser um golpe:</p>
+        <input type="text" id="linkInput" placeholder="Cole o link aqui...">
+        <button onclick="verificarLink()">Verificar</button>
+        <div class="acoes-extras">
+            <!-- <button onclick="encurtarLink()">🔗 Encurtar Link</button>
+            <button onclick="resumirSite()">📝 Resumir Site</button>
+            <button onclick="verificarSeguranca()">🛡 Verificar Segurança</button>
+            <button onclick="verEmpresa()">🏢 Ver Empresa Responsável</button> -->
+        </div>
+        <p id="resultado" class="resultado"></p>
+
+
+        <h2>Dicas para evitar golpes online:</h2>
+        <ul>
+            <li>⚠ Sempre verifique o endereço do site antes de clicar.</li>
+            <li>📧 Nunca forneça dados pessoais em e-mails suspeitos.</li>
+            <li>🔒 Use autenticação de dois fatores sempre que possível.</li>
+            <li>💳 Desconfie de ofertas muito boas para serem verdade.</li>
+            <li>🛑 Nunca baixe arquivos de fontes desconhecidas.</li>
+        </ul>
+    </div>
+</body>
+
+</html>
